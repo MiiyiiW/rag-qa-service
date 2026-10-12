@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# 项目数据（PDF 与向量库不入库）
+data/
+*.pdf
+chroma_db/
+*.sqlite
+
+# 输出
+out/
+docs/*.tmp
+
+# macOS
+.DS_Store
+
+# 日志
+*.log
